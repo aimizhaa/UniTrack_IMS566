@@ -3116,3 +3116,93 @@ body.dashboard-page.theme-light .completed-status {
 #courseList.course-list-view .course-card h5 {
     font-size: 13px !important;
 }
+
+
+/* ==========================================
+   UNITRACK - LOGIN PAGES DARK MODE
+========================================== */
+
+/* Background */
+body.theme-dark .login-page {
+    background: linear-gradient(
+        135deg,
+        #101827,
+        #17243a,
+        #1b2b43
+    ) !important;
+}
+
+/* Login, Register and Forgot Password Cards */
+body.theme-dark .login-card {
+    background-color: #1b2b43 !important;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Main Heading */
+body.theme-dark .login-card h2 {
+    color: #f1f5f9 !important;
+}
+
+/* Welcome Text */
+body.theme-dark .welcome-text {
+    color: #8dbaff !important;
+}
+
+/* Description */
+body.theme-dark .login-description {
+    color: #b8c7dc !important;
+}
+
+/* Form Labels */
+body.theme-dark .login-card .form-label {
+    color: #dce6f2 !important;
+}
+
+/* Input Fields */
+body.theme-dark .login-card .form-control {
+    background-color: #243750 !important;
+    border-color: #405570 !important;
+    color: #f1f5f9 !important;
+}
+
+/* Input Placeholder */
+body.theme-dark .login-card .form-control::placeholder {
+    color: #94a3b8 !important;
+}
+
+/* Remember Me */
+body.theme-dark .remember-option {
+    color: #b8c7dc !important;
+}
+
+/* Forgot Password and Register Links */
+body.theme-dark .forgot-link,
+body.theme-dark .register-text a {
+    color: #8dbaff !important;
+}
+
+/* Register Text */
+body.theme-dark .register-text {
+    color: #b8c7dc !important;
+}
+
+/* Password Toggle */
+body.theme-dark .password-toggle {
+    color: #8dbaff !important;
+}
+
+/* Password Hint */
+body.theme-dark .password-hint {
+    color: #a6b6ca !important;
+}
+
+/* Footer */
+body.theme-dark .login-footer {
+    color: #94a3b8 !important;
+}
+
+/* Smooth Focus */
+body.theme-dark .login-card .form-control:focus {
+    border-color: #6b9fe8 !important;
+    box-shadow: 0 0 0 3px rgba(107, 159, 232, 0.18) !important;
+}
